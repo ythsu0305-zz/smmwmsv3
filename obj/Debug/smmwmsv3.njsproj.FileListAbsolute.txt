@@ -1,0 +1,2 @@
+C:\Users\ythsu\Documents\GitHub\smmwmsv3\obj\Debug\smmwmsv3.njsprojResolveAssemblyReference.cache
+C:\Users\ythsu\Documents\GitHub\smmwmsv3\bin\Microsoft.NodejsTools.WebRole.dll

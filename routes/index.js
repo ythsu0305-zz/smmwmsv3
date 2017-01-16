@@ -9,25 +9,26 @@ router.get('/', function (req, res, next) {
     });
 });
 
-router.get('/auth/:id', function (req, res, next) {
+router.get('/auth/:id', function (req, res) {
     res.json({
         message: req.params.id,
     });
 });
 
-router.post('/auth', function (req, res, next) {
+router.post('/auth', function (req, res) {
     console.log(models.User);
-    /*models.User.findAll({
+    models.User.findOne({
         where: {
             username: req.body.username
         }
-    }).then(function (user) {
+    }).then(function (users) {
+        console.log(users);
         res.json({
-            id: user.id,
-            username: user.username,
-            password: user.password
+            id: users.id,
+            username: users.username,
+            password: users.password
         });
-    });*/
+    });
 
 });
 

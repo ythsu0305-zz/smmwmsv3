@@ -51,8 +51,10 @@ app.use(session({
 }));
 
 var index = require('./routes/index');
+var auth = require('./routes/auth');
 
 app.use('/', index);
+app.use('/auth', auth);
 
 // 抓取 404 錯誤 以及 轉遞錯誤給錯誤管理者 catch 404 and forward to error handler
 app.use(function(req, res, next) {

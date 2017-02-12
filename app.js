@@ -23,6 +23,7 @@ var sequelize = new Sequelize(
     config.database,
     config.username,
     config.password, {
+        host: config.host,
         logging: console.log,
         define: {
             timestamps: false

@@ -6,7 +6,7 @@
     "session": "session",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "port": "3306"
+    "port": 3306
   },
   "test": {
     "username": "root",
@@ -15,7 +15,7 @@
     "session": "session",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "port": "3306"
+    "port": 3306
   },
   "production": {
     "username": "root",
@@ -24,6 +24,6 @@
     "session": "session",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "port": "3306"
+    "port": 3306
   }
 }
